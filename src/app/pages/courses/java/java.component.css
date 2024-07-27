@@ -1,0 +1,42 @@
+.topContent {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border-radius: 7px;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn-width {
+    width: 50%;
+    border-radius: 70px;
+    margin-left: 24%;
+    background: #e95353;
+}
+
+.detailInfo {
+    padding-top: 70px;
+}
+.WhyInfo {
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.detailswhy {
+    padding-top: 20px;
+    
+}
+.width-circle {
+    width: 8px;
+}
+
+.upcoming-java {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+}

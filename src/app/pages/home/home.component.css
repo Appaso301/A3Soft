@@ -1,0 +1,57 @@
+.top-card {
+    background: aliceblue;
+    padding: 10px;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: rgb(12, 199, 68);
+    font-size: 1.5em;
+    /* Larger, responsive font size */
+    margin-bottom: 20px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.font-size {
+    font-size:larger;
+}
+
+.row {
+    padding: 40px;
+}
+.class-details{
+    background: antiquewhite;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.java-icon {
+    height: 100px;
+    width: 100px;
+    padding: 19px;
+    margin-left: 100px;
+    margin-top: 17px;
+}
+.icon-backgroud {
+    background: antiquewhite;
+}
+.text-padding{
+    padding-top: 12px;
+}
+
+.course-icon {
+    background: #e0e4e8;
+    height: 140px;
+    transition: background-color 0.1s ease;
+}
+
+.btn-width {
+    width: -webkit-fill-available;
+    border-radius: 0px 0px 10px 10px;
+}

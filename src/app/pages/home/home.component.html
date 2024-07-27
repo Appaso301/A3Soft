@@ -1,1 +1,62 @@
-<p>home works!</p>
+<div class="col-12 card body top-card ">
+    <div class=" col-12 text-center m-b-10 m-t-10">
+        <h4 class="text-danger blink">Our IT Classes</h4>
+        <h5>Choose your course with complete bundle of <span class="blink font-size">online training</span>.Each
+            training is handled by a experienced professionals who has years of experience in the particular field.</h5>
+    </div>
+</div>
+<div class="col-12">
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-3">
+            <div class="class-details">
+                <h5 class="text-center text-padding">Java</h5>
+                <div class="course-icon" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()"
+                    [style.backgroundColor]="backgroundColor"  (click)="javaRedirect()">
+                    <img class="java-icon" src="assets/java.svg">
+                </div>
+                <div class="class-details">
+                    <button type="button" class="btn btn-primary btn-lg btn-block btn-width">Enroll Now</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-3">
+            <div class="class-details">
+                <h5 class="text-center text-padding">Spring Boot</h5>
+                <div class="course-icon">
+                    <img class="java-icon" src="assets/spring.svg" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()"
+                        [style.backgroundColor]="backgroundColor"  (click)="springBootRedirect()">
+                </div>
+                <div class="class-details">
+                    <button type="button" class="btn btn-primary btn-lg btn-block btn-width">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-3">
+            <div class="class-details" >
+                <h5 class="text-center text-padding">Angular</h5>
+                <div class="course-icon">
+                    <img class="java-icon" src="assets/file-type-angular.svg" (mouseover)="onMouseOver()"
+                        (mouseout)="onMouseOut()" [style.backgroundColor]="backgroundColor" (click)="angularRedirect()">
+                </div>
+                <div class="class-details">
+                    <button type="button" class="btn btn-primary btn-lg btn-block btn-width">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-3">
+            <div class="class-details">
+                <h5 class="text-center text-padding">React</h5>
+                <div class="course-icon">
+                    <img class="java-icon" src="assets/react.svg" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()"
+                        [style.backgroundColor]="backgroundColor"  (click)="reactRedirect()">
+                </div>
+                <div class="class-details">
+                    <button type="button" class="btn btn-primary btn-lg btn-block btn-width">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
