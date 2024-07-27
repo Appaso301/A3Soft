@@ -1,8 +1,25 @@
 /* Header styles */
-header {
-    background-color: #dfaf20;
-    color: #fff;
-    padding: 10px 0;
+
+img {
+    height: 70px;
+    width: 398px;
+}
+.header {
+    background-color: #3498db; /* Example background color */
+            color: #fff; /* Example text color */
+            text-align: center;
+            padding: 50px 0;
+            /* Example background pattern */
+            background-image: linear-gradient(45deg, #f3ec78, #af4261);
+            font-size: 32px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example text shadow */
+            letter-spacing: 2px;
+}
+.header-text {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7); /* Example background color for text container */
+    padding: 4px 4px;
+    border-radius: 8px; /* Example border radius */
 }
 
 .header-container {
